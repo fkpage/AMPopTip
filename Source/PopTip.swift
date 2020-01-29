@@ -107,7 +107,7 @@ open class PopTip: UIView {
   /// The width for the poptip's border
   @objc open dynamic var borderWidth = CGFloat(0.0)
   /// The `Double` with the poptip's border radius
-  @objc open dynamic var cornerRadius = CGFloat(4.0)
+  @objc open dynamic var cornerRadius = CGFloat(10.0)
   /// The `BOOL` that determines wether the poptip is rounded. If set to `true` the radius will equal `frame.height / 2`
   @objc open dynamic var isRounded = false
   /// The `UIColor` with the poptip's shadow color
